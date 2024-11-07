@@ -1,0 +1,161 @@
+name: finals
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - images/front/HAU_logo.png
+   - images/front/HAU_map.PNG
+   - images/front/soc.png
+   - images/front/sba.png
+   - images/front/sea.png
+   - images/front/sed.png
+   - images/front/shtm.png
+   - images/front/ccjef.png
+   - images/front/sas.png
+   - images/front/bed.png
+   - images/front/gs.png
+   - images/one/Plaza_Building.jpg                #one
+   - images/one/RedBuilding_HumanOffice.jpg
+   - images/one/RedBuilding_Dormitory.jpg
+   - images/two/StMarthaBuilding.jpg              #two
+   - images/two/StMartha_DormOffice.jpg
+   - images/two/StMartha_Testing-Eval.jpg
+   - images/two/StMartha_Dormitory.jpg
+   - images/two/StMartha_AdmissionsOff.jpg
+   - images/three/SFJ.jpg                         #three
+   - images/three/SFJ_PresidentOffice.jpg
+   - images/three/SFJ_UnivLib.jpg
+   - images/three/SFJ_UnivTheater.jpg
+   - images/four/STL.jpg                          #four
+   - images/four/STL_SHTM-DeansOffice.jpg
+   - images/five/WC.jpg
+   - images/six/YellowCanteen.jpg                 #six
+   - images/seven/SGH.jpg                         #seven
+   - images/eight/SRH.jpg                         #eight
+   - images/nine/SMH.jpg                          #nine
+   - images/ten/GGN.jpg                           #ten
+   - images/ten/GGN_Canteen.jpg
+   - images/ten/GGN_HSGuideOffice.jpg
+   - images/ten/GGN_HSLib.jpg
+   - images/ten/GGN_InternetSection.jpg
+   - images/ten/GGN_MediaCenter.jpg
+   - images/ten/GGN_PrinOffice-FacRoom.jpg
+   - images/eleven/PGN.jpg                        #eleven
+   - images/eleven/PGN_Clinic.jpg
+   - images/eleven/PGN_CollegeGuideOffice.jpg
+   - images/eleven/PGN_OSAOffice.jpg
+   - images/eleven/PGN_SBA_DeansOffice.jpg
+   - images/eleven/PGN_UnivGuideOff.jpg
+   - images/twelve/DJDN.jpg                        #twelve
+   - images/twelve/DJDN_AccOffice.jpg
+   - images/twelve/DJDN_TellersOffice.jpg
+   - images/thirteen/APS_BookStore.jpg             #thirteen
+   - images/thirteen/APS_CompRoom.jpg
+   - images/thirteen/APS_SEA_DeansOffice.jpg
+   - images/thirteen/APS.jpg
+   - images/fourteen/MGN.jpg                       #fourteen
+   - images/fourteen/MGN_CCJEF_ConsulRoom.jpg
+   - images/fourteen/MGN_CCJEF_DeansOffice.jpg
+   - images/fourteen/MGN_CCJEF_SciLab.jpg
+   - images/fourteen/MGN_CompLab.jpg
+   - images/fourteen/MGN_GuideOffice.jpg
+   - images/fifteen/ChapelofHGA.jpg                 #fifteen
+   - images/sixteen/Josefina_FormCenter.jpg         #sixteen
+   - images/seventeen/SJH.jpg                       #seventeen
+   - images/seventeen/SJH_ConsulRoom.jpg
+   - images/seventeen/SJH_CSC-CCJEF-SOC-Office.jpg
+   - images/seventeen/SJH_SAS_DeansOffice.jpg
+   - images/seventeen/SJH_SOC_DeansOffice.jpg
+   - images/seventeen/SJH_SOC_FacRoom.jpg
+   - images/seventeen/SJH_SEDDeansOff.jpg
+   - images/seventeen/SJH_SEDFacRoom.jpg
+   - images/eighteen/SHBuilding.jpg                 #eighteen
+   - images/nineteen/CoveredCourt.jpg               #nineteen
+   - images/twenty/ImmacGym.jpg                     #twenty
+   - images/twentyone/ImmacGymAnnex.jpg             #twentyone
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Tan
+      fonts:
+        - asset: fonts/Tan Pumpkins Personal Use.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Anteb
+      fonts:
+        - asset: fonts/Anteb-Bold.ttf
+        # - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: fonts/MontserratAlternates-Regular.otf
+
+    - family: MontserratSemi
+      fonts:
+        - asset: fonts/MontserratAlternates-SemiBold.otf
+
+    - family: Alice
+      fonts:
+        - asset: fonts/Alice-Regular.ttf
+    
+    - family: Roman
+      fonts: 
+        - asset: fonts/RomanSerif.ttf
+      
+          # style: bold
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
